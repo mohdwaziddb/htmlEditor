@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML Editor</title>
+</head>
+
 <body>
 
-<textarea id="textid" type="text" onkeyup="change()"></textarea>
-<br>
-<br>
-<p id="paraid"></p>
+  <textarea id="textid" type="text" onkeyup="change()"></textarea>
+  <br>
+  <br>
+  <p id="paraid"></p>
 
-<script>
-function change(){
-document.getElementById("paraid").innerHTML = document.getElementById("textid").value
-}
-</script>
+  <script>
+    function change() {
+      document.getElementById("paraid").innerHTML = document.getElementById("textid").value
+    }
+  </script>
 </body>
+
 </html>
-
-
