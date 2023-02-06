@@ -1,0 +1,2 @@
+> git remote rename upstream upstream
+fatal: remote upstream already exists.
