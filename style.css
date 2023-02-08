@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(27, 9, 9);
+    background-color: rgb(0, 0, 0);
 }
 
 p {
@@ -13,22 +13,31 @@ p {
 .container {
     height: 100%;
     width: 100%;
-    padding: 10%;
+    padding: 2%;
 }
 
 /* .containr-chld1 {
     margin: 0;
 }
-
+*/
 .containr-chld2 {
-    margin: 0;
-} */
-
-#textid,
-#paraid {
-    resize: none;
+    background-color: rgb(223, 223, 223);
     height: 100%;
+    margin: 20px 0;
+    height: 600px;
+    overflow: auto;
+}
+
+#textid {
+    resize: none;
+    height: 600px;
     width: 100%;
     background-color: #E8E2E2;
+    margin: 20px 0;
+}
+
+#paraid {
+
+    background-color: rgb(223, 223, 223);
     margin: 20px 0;
 }
