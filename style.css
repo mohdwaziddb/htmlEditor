@@ -21,7 +21,7 @@ p {
 }
 
 .containr-chld2 {
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(223, 223, 223) !important;
     height: 100%;
     margin: 20px 0px;
     height: 600px;
