@@ -16,16 +16,17 @@ p {
     padding: 2%;
 }
 
-/* .containr-chld1 {
-    margin: 0;
+.containr-chld1 {
+    padding: 0 15px 0 0 !important;
 }
-*/
+
 .containr-chld2 {
     background-color: rgb(223, 223, 223);
     height: 100%;
-    margin: 20px 0;
+    margin: 20px 0px;
     height: 600px;
     overflow: auto;
+    padding: 0 0 0 15px !important;
 }
 
 #textid {
